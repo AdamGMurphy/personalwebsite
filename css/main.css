@@ -101,18 +101,21 @@
 	float: left;
 }
 
-#aboutme {
+#aboutme-content {
+}
+
+#resume-content {
 	display: none;
 }
 
-#resume {
+#linkedin-content {
 	display: none;
 }
 
-#linkedin {
+#github-content {
 	display: none;
 }
 
-#github {
+#test-content {
 	display: none;
 }
