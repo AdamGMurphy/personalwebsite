@@ -1,0 +1,62 @@
+#photocircle {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url("../resources/ocean1.jpg");
+	box-shadow: inset 0 0 15px rgba(0,0,0,0.75);
+}
+
+#header {
+	font-family: Ubuntu;
+	font-size: 30px;
+	margin-top: -40px;
+	margin-bottom: 10px;
+}
+
+#content {
+	font-family: Ubuntu;
+	margin-top: 10%;
+	margin-left: 45%;
+	width: 40%;
+	float: left;
+}
+
+#menu {
+	font-family: Ubuntu;
+	margin-top: 10%;
+	margin-left: 15%;
+	width: 30%;
+	float: left;
+	position: fixed;
+}
+
+#menulist {
+	position: relative;
+	left: 15px;
+	display: block;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#menulist li a {
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+}
+
+#menulist li a.selected {
+	color: gray;
+}
+
+@-webkit-keyframes menuitemhover {
+	0% { color: black; }
+	100% { color: gray; }
+}
+
+#menulist li a:not(.selected):hover {
+	-webkit-animation-name: menuitemhover;
+	-webkit-animation-duration: 0.5s;
+	color: gray;
+}
