@@ -100,3 +100,19 @@
 	width: 40%;
 	float: left;
 }
+
+#aboutme {
+	display: none;
+}
+
+#resume {
+	display: none;
+}
+
+#linkedin {
+	display: none;
+}
+
+#github {
+	display: none;
+}
