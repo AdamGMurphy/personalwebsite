@@ -1,11 +1,4 @@
-#photocircle {
-	border-radius: 50%;
-	width: 200px;
-	height: 200px;
-	float: left;
-	background-image: url("../resources/ocean1.jpg");
-	box-shadow: inset 0 0 15px rgba(0,0,0,0.75);
-}
+/*** MENU ***/
 
 #header {
 	font-family: Ubuntu;
@@ -14,12 +7,13 @@
 	margin-bottom: 10px;
 }
 
-#content {
-	font-family: Ubuntu;
-	margin-top: 10%;
-	margin-left: 45%;
-	width: 40%;
+#photocircle {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
 	float: left;
+	background-image: url("../resources/ocean1.jpg");
+	box-shadow: inset 0 0 15px rgba(0,0,0,0.75);
 }
 
 #menu {
@@ -95,4 +89,14 @@
 	-webkit-animation-name: menuitemhover;
 	-webkit-animation-duration: 0.5s;
 	color: gray;
+}
+
+/*** CONTENT ***/
+
+#content {
+	font-family: Ubuntu;
+	margin-top: 10%;
+	margin-left: 45%;
+	width: 40%;
+	float: left;
 }
