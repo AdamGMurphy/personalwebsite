@@ -34,10 +34,46 @@
 #menulist {
 	position: relative;
 	left: 15px;
+	top: -7px;
 	display: block;
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
+}
+
+#menulist li:nth-child(1) {
+	position: relative;
+	left: -45px;
+}
+
+#menulist li:nth-child(2) {
+	position: relative;
+	left: -18px;
+}
+
+#menulist li:nth-child(3) {
+	position: relative;
+	left: -5px;
+}
+
+#menulist li:nth-child(4) {
+	position: relative;
+	left: 0px;
+}
+
+#menulust li:nth-child(5) {
+	position: relative;
+	left: -2px;
+}
+
+#menulist li:nth-child(6) {
+	position: relative;
+	left: -12px;
+}
+
+#menulist li:nth-child(7) {
+	position: relative;
+	left: -35px;
 }
 
 #menulist li a {
