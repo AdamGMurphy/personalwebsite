@@ -3,6 +3,8 @@
 	<header>
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu" />
 		<link rel="stylesheet" href="../css/main.css" />
+	
+		<script src="../javascript/main.js"></script>
 	</header>
 	<body>
 		<div id="menu">
@@ -10,11 +12,12 @@
 			<div id="photocircle"></div>
 		
 			<nav id="menulist">
-				<li><a class="selected" href="#">Home</a></li>
-				<li><a href="#">Resume</a></li>
-				<li><a href="#">Linkedin</a></li>
-				<li><a href="#">Github</a></li>
-<!--				<li><a href="#">option 5</a></li>
+				<li><a href="#" id="aboutme-nav" class="nav-selected" onclick="navigate('aboutme')">Home</a></li>
+				<li><a href="#" id="resume-nav" onclick="navigate('resume')">Resume</a></li>
+				<li><a href="#" id="linkedin-nav" onclick="navigate('linkedin')">Linkedin</a></li>
+				<li><a href="#" id="github-nav" onclick="navigate('github')">Github</a></li>
+<!--
+				<li><a href="#">option 5</a></li>
 				<li><a href="#">option 6</a></li>
 				<li><a href="#">option 7</a></li>
 -->				
