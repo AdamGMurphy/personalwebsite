@@ -2,22 +2,26 @@
 
 #header {
 	font-family: Ubuntu;
-	font-size: 30px;
+	font-size: 35px;
 	margin-top: -40px;
 	margin-bottom: 10px;
 }
 
 #photocircle {
+	border-color: black;
+	border-style: solid;
+	border-width: 10px;
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
 	float: left;
 	background-image: url("../resources/ocean1.jpg");
-	box-shadow: inset 0 0 15px rgba(0,0,0,0.75);
+	box-shadow: inset 0 0 10px 2px rgba(0,0,0,0.75);
 }
 
 #menu {
 	font-family: Ubuntu;
+	font-weight: 900;
 	margin-top: 10%;
 	margin-left: 15%;
 	width: 30%;
@@ -28,49 +32,15 @@
 #menulist {
 	position: relative;
 	left: 15px;
-	top: -7px;
+	top: 10px;
 	display: block;
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
 }
 
-#menulist li:nth-child(1) {
-	position: relative;
-	left: -45px;
-}
-
-#menulist li:nth-child(2) {
-	position: relative;
-	left: -18px;
-}
-
-#menulist li:nth-child(3) {
-	position: relative;
-	left: -5px;
-}
-
-#menulist li:nth-child(4) {
-	position: relative;
-	left: 0px;
-}
-
-#menulust li:nth-child(5) {
-	position: relative;
-	left: -2px;
-}
-
-#menulist li:nth-child(6) {
-	position: relative;
-	left: -12px;
-}
-
-#menulist li:nth-child(7) {
-	position: relative;
-	left: -35px;
-}
-
 #menulist li a {
+	margin-top: 100px;
 	text-decoration: none;
 	font-size: 25px;
 	color: black;
@@ -96,8 +66,8 @@
 #content {
 	font-family: Ubuntu;
 	margin-top: 10%;
-	margin-left: 45%;
-	width: 40%;
+	margin-left: 50%;
+	width: 35%;
 	float: left;
 }
 
