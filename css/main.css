@@ -29,7 +29,7 @@
 	position: fixed;
 }
 
-#menulist {
+#menulist ul {
 	position: relative;
 	left: 15px;
 	top: 10px;
@@ -39,14 +39,14 @@
 	list-style-type: none;
 }
 
-#menulist li a {
+#menulist ul li a {
 	margin-top: 100px;
 	text-decoration: none;
 	font-size: 25px;
 	color: black;
 }
 
-#menulist li a.nav-selected {
+#menulist ul li a.nav-selected {
 	color: gray;
 }
 
@@ -55,7 +55,7 @@
 	100% { color: gray; }
 }
 
-#menulist li a:not(.nav-selected):hover {
+#menulist ul li a:not(.nav-selected):hover {
 	-webkit-animation-name: menuitemhover;
 	-webkit-animation-duration: 0.5s;
 	color: gray;
