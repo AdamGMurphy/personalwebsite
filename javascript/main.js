@@ -27,21 +27,21 @@ function navigate(destination) {
 	destContentElement.style.display = 'block';
 }
 
-function onMouseEnterBanner() {
-	var banner = document.getElementById('banner');
+function onMouseEnterBanner(event) {
+	var banner = event.target;
 	banner.style.transitionDuration = '0.1s, 1s';
 	banner.style.filter = 'sepia(0%)';
 }
 
-function onMouseLeaveBanner() {
-	var banner = document.getElementById('banner');
+function onMouseLeaveBanner(event) {
+	var banner = event.target;
 	banner.style.transitionDuration = '1s';
 	banner.style.backgroundPosition = '0% 100%';
 	banner.style.filter = 'sepia(50%)';
 }
 
 function onMouseMoveBanner(event) {
-	var banner = document.getElementById('banner');
+	var banner = event.target;
 	var yPositionPercentage = (event.clientY / BANNER_HEIGHT_PIXELS) * 100;
 	banner.style.backgroundPosition = '0% ' + yPositionPercentage + '%';
 }
