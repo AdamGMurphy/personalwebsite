@@ -4,13 +4,6 @@ body {
 	margin: 0;
 }
 
-#header {
-	font-family: Ubuntu;
-	font-size: 35px;
-	margin-top: -40px;
-	margin-bottom: 10px;
-}
-
 #banner {
 	filter: sepia(50%);
 	background-image: url("../resources/newfoundland.jpeg");
@@ -20,87 +13,48 @@ body {
 	height: 250px;
 	transition-duration: 0.1s;
 	transition-property: background-position, filter;
-}
-
-#photocircle {
-	border-color: black;
-	border-style: solid;
-	border-width: 10px;
-	border-radius: 50%;
-	width: 200px;
-	height: 200px;
-	float: left;
-	background-image: url("../resources/ocean1.jpg");
-	box-shadow: inset 0 0 10px 2px rgba(0,0,0,0.75);
+	box-shadow: inset 0px -18px 10px -10px black;
 }
 
 #menu {
-	font-family: Ubuntu;
-	font-weight: 900;
-	margin-top: 10%;
-	margin-left: 15%;
-	width: 30%;
-	float: left;
-	position: fixed;
+	background-color: black;
+	height: 2.5rem;
+	width: 100%;
 }
 
-#menulist ul {
-	position: relative;
-	left: 15px;
-	top: 10px;
-	display: block;
+#menu ul {
 	padding: 0;
-	margin: 0;
+	position: relative;
+	display: block;
 	list-style-type: none;
+	width: 40%;
+	margin: auto;
 }
 
-#menulist ul li a {
-	margin-top: 100px;
+#menu li {
+	margin-right: 2em;
+	display: inline;
+}
+
+#menu ul li a {
+	font-size: 2rem;
 	text-decoration: none;
-	font-size: 25px;
-	color: black;
+	color: white;
 }
 
-#menulist ul li a.nav-selected {
-	color: gray;
+#menu ul li a:hover {
+	transition-duration: 1s;
+	color: #e2b88e;
 }
-
-@-webkit-keyframes menuitemhover {
-	0% { color: black; }
-	100% { color: gray; }
-}
-
-#menulist ul li a:not(.nav-selected):hover {
-	-webkit-animation-name: menuitemhover;
-	-webkit-animation-duration: 0.5s;
-	color: gray;
-}
-
-/*** CONTENT ***/
 
 #content {
 	font-family: Ubuntu;
-	margin-top: 10%;
-	margin-left: 50%;
-	width: 35%;
-	float: left;
+	width: 40%;
+	margin: 40px auto;
 }
 
-#aboutme-content {
-}
-
-#resume-content {
-	display: none;
-}
-
-#linkedin-content {
-	display: none;
-}
-
-#github-content {
-	display: none;
-}
-
-#test-content {
-	display: none;
+#header {
+	font-family: Ubuntu;
+	font-size: 4em;
+	margin-bottom: 0.5em;
 }
